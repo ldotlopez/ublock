@@ -1,3 +1,9 @@
+[uBlock Origin]
+! Title: Luis López Personal Filters
+! Homepage: https://github.com/ldotlopez/ublock
+! Author: Luis López
+! Expires: 4 days
+
 !#include blacklistmedia.txt
 !#include comments.txt
 !#include misc.txt

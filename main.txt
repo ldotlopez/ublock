@@ -6,7 +6,6 @@
 
 !#include blacklistmedia.txt
 !#include comments.txt
-!#include main.txt
 !#include misc.txt
 !#include paywall.txt
 !#include sections.txt

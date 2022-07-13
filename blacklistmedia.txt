@@ -1,0 +1,12 @@
+!
+! Blacklisted media, very personal
+!
+
+! https://www.reddit.com/r/uBlockOrigin/comments/9k9ocw/hide_sites_from_google_search_results/
+! twitter.com##article:has-text(@elpais_espana)
+
+||atresmedia.es
+||elpais.com
+||elpais.es
+||lasexta.com
+||newtral.es

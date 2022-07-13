@@ -1,0 +1,8 @@
+!
+! Hide comments and random people opinions from sites
+!
+
+
+amazon.*##.cr-widget-DesktopGlobalReviews
+amazon.*##.cr-widget-FocalReviews
+amazon.*##.askInlineWidget

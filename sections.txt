@@ -1,0 +1,9 @@
+!
+! Hide misc stuff, very personal
+!
+
+www.elmundo.es##.elmundo-theme-v7.elmundo-theme.deportes.js_navContinua.section.main
+www.elmundo.es##.elmundo-theme-v7.elmundo-theme.motor.js_navContinua.section.main
+www.elmundo.es##.granmadrid-theme-v7.granmadrid-theme.madrid.js_navContinua.section.main
+www.elmundo.es##.loc-theme-v2.loc-theme.deportes.js_navContinua.section.main
+www.elmundo.es##.loc-theme-v2.loc-theme.loc.js_navContinua.section.main

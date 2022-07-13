@@ -2,77 +2,11 @@
 ! Title: Luis López Personal Filters
 ! Homepage: https://github.com/ldotlopez/ublock
 ! Author: Luis López
-! Expires: 4 days
+! Expires: 1 days
 
-!
-! Blacklisted media, very personal
-!
-
-! https://www.reddit.com/r/uBlockOrigin/comments/9k9ocw/hide_sites_from_google_search_results/
-! twitter.com##article:has-text(@elpais_espana)
-
-||atresmedia.es
-||elpais.com
-||elpais.es
-||lasexta.com
-||newtral.es
-!
-! Hide comments and random people opinions from sites
-!
-
-
-amazon.*##.cr-widget-DesktopGlobalReviews
-amazon.*##.cr-widget-FocalReviews
-amazon.*##.askInlineWidget
-accounts.google.com/gsi/iframe/select$subdocument
-magnet.xataka.com###batchsdk-ui-alert-container
-publicdomainreview.org##.expanded.exit-modal__shade
-www.abc.es##.ev-em-modal.ev-em-modals
-www.castelloninformacion.com##.main-sidebar
-www.castelloninformacion.com##.publicontainer
-www.castelloninformacion.com##.publicontainer2
-www.dailymotion.com/embed/video/x803ein
-www.diariandorra.ad##.subscribe-notifications
-www.directoalpaladar.com###batchsdk-ui-alert
-www.eitb.eus###mensaje_web
-www.elsaltodiario.com##.autopromo-faldon
-www.genbeta.com##._1t3keJA--ELrQHHHy6tYTX
-www.howtogeek.com###notificationAllowPrompt
-www.huffingtonpost.es##.newsletter-toaster__inner-container
-www.iagua.es###lean_overlay
-www.infolibre.es###subscribe-notifications
-www.meneame.net###live-window
-www.meneame.net##.index_block
-www.meneame.net##.sponsored.news-summary
-www.meneame.net##[href="https://rebellionpay.me/meneame"]
-www.publico.es##.pb-sticky-bottom-unete.pb-sticky-bottom
-www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded.paywall-bar-failsafe
-www.wired.com##.paywall-bar__expanded
-www.wish.com##.eheuPO.AuthenticationPage__Wrapper-sc-1nahtik-0.BaseModal__PlainBackDrop-sc-1u9dpt5-0
-!
-! Paywall and premium stuff
-!
-
-! Paywall CDN
-||piano.io
-||piano.io/$subdocument
-
-! El pais
-elpais.com###acceptationCMPWall
-
-! El mundo
-www.elmundo.es##.premium.banda_suscripcion
-
-! Prensa iberica
-elperiodicomediterraneo.com##.premium.new > header > .new__tag
-elperiodicomediterraneo.com##.commercial-up-full__wrapper
-elperiodicomediterraneo.com##.sk--offered-by.sk--bcontent.lst
-!
-! Hide misc stuff, very personal
-!
-
-www.elmundo.es##.elmundo-theme-v7.elmundo-theme.deportes.js_navContinua.section.main
-www.elmundo.es##.elmundo-theme-v7.elmundo-theme.motor.js_navContinua.section.main
-www.elmundo.es##.granmadrid-theme-v7.granmadrid-theme.madrid.js_navContinua.section.main
-www.elmundo.es##.loc-theme-v2.loc-theme.deportes.js_navContinua.section.main
-www.elmundo.es##.loc-theme-v2.loc-theme.loc.js_navContinua.section.main
+!#include blacklistmedia.txt
+!#include comments.txt
+!#include main.txt
+!#include misc.txt
+!#include paywall.txt
+!#include sections.txt

@@ -1,4 +1,4 @@
-!#include blaclistmedia.txt
+!#include blacklistmedia.txt
 !#include comments.txt
 !#include misc.txt
 !#include paywall.txt

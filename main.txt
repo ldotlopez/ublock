@@ -4,11 +4,6 @@
 ! Author: Luis López
 ! Expires: 4 days
 
-!#include blacklistmedia.txt
-!#include comments.txt
-!#include misc.txt
-!#include paywall.txt
-!#include sections.txt
 !
 ! Blacklisted media, very personal
 !

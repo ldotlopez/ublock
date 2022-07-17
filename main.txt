@@ -4,8 +4,115 @@
 ! Author: Luis López
 ! Expires: 1 days
 
-!#include blacklistmedia.txt
-!#include comments.txt
-!#include misc.txt
-!#include paywall.txt
-!#include sections.txt
+
+! ===========================
+! Hide comments and random people opinions from sites
+! ===========================
+
+amazon.*##.cr-widget-DesktopGlobalReviews
+amazon.*##.cr-widget-FocalReviews
+amazon.*##.askInlineWidget
+
+castelloninformacion.com###comments
+
+castellonplaza.com##.motor
+castellonplaza.com##.seccion-ceramica
+castellonplaza.com##.seccion-plazadeportiva
+
+eldiario.es###edi-comments
+eldiario.es###edi-subscriber-comments
+
+elmundo.com##.elmundo-theme-v5 .ue-c-cover-content__comments
+elmundo.com##.elmundo-theme-v5.ue-l-article--basic .aside-comments
+elmundo.com##.elmundo-theme-v6 .ue-c-cover-content__comments
+elmundo.com##.elmundo-theme-v6.ue-l-article--basic .aside-comments
+elmundo.com##.elmundo-theme-v7 .ue-c-cover-content__comments
+elmundo.com##.elmundo-theme-v7.ue-l-article--basic .aside-comments
+
+elpais.com##.articulo .articulo-comentarios
+elpais.com##.articulo-comentarios
+elpais.com##.articulo-comentarios-encabezado
+elpais.com##.boton_comentarios
+
+elpais.com##a.comments_link
+
+elperiodicomediterraneo.com##.ComentariosdeNoticia
+elperiodicomediterraneo.com##.ComentariosNew
+elperiodicomediterraneo.com##.Contenidos h6.EnNoticia
+lavanguardia.com##.comments
+lavanguardia.com##.story-socialmedia > i.fa-comment
+lavanguardia.com##.story-socialmedia > span.livefyre-commentcount
+meneame.net##.comments
+meneame.net##.news-details
+youtube.com###comments
+
+!*##.comments
+!*###comments
+
+! ===========================
+! Paywall and premium stuff
+! ===========================
+
+! Paywall CDN
+*.piano.io
+||piano.io
+||piano.io/$subdocument
+
+! El pais
+elpais.com###acceptationCMPWall
+
+! El mundo
+elmundo.es##.premium.banda_suscripcion
+
+! Prensa iberica
+elperiodicomediterraneo.com##.premium.new > header > .new__tag
+elperiodicomediterraneo.com##.commercial-up-full__wrapper
+elperiodicomediterraneo.com##.sk--offered-by.sk--bcontent.lst
+elperiodicomediterraneo.com##.premium.new > header > .new__tag
+
+! ===========================
+! Hide misc stuff, very personal
+! Mostly sports, cars, yellow press and similar
+! ===========================
+
+elmundo.es##.elmundo-theme-v7.elmundo-theme.deportes.js_navContinua.section.main
+elmundo.es##.elmundo-theme-v7.elmundo-theme.motor.js_navContinua.section.main
+elmundo.es##.granmadrid-theme-v7.granmadrid-theme.madrid.js_navContinua.section.main
+elmundo.es##.loc-theme-v2.loc-theme.deportes.js_navContinua.section.main
+elmundo.es##.loc-theme-v2.loc-theme.loc.js_navContinua.section.main
+elpais.com##section[data-dtm-region="portada_tematicos_deportes"]
+elpais.com##section[data-dtm-region="portada_tematicos_motor"]
+lavanguardia.com##.container[data-gtm-element-container-section="deportes"]
+
+
+! ===========================
+! Misc stuff
+! ===========================
+
+accounts.google.com/gsi/iframe/select$subdocument
+||accounts.google.com/gsi/iframe/select$subdocument
+magnet.xataka.com###batchsdk-ui-alert-container
+publicdomainreview.org##.expanded.exit-modal__shade
+www.abc.es##.ev-em-modal.ev-em-modals
+www.castelloninformacion.com##.main-sidebar
+www.castelloninformacion.com##.publicontainer
+www.castelloninformacion.com##.publicontainer2
+www.dailymotion.com/embed/video/x803ein
+www.diariandorra.ad##.subscribe-notifications
+www.directoalpaladar.com###batchsdk-ui-alert
+www.eitb.eus###mensaje_web
+www.elmundo.es##.ue-c-video-player-frame--pip.ue-c-video-player-frame
+www.elsaltodiario.com##.autopromo-faldon
+www.genbeta.com##._1t3keJA--ELrQHHHy6tYTX
+www.howtogeek.com###notificationAllowPrompt
+www.huffingtonpost.es##.newsletter-toaster__inner-container
+www.iagua.es###lean_overlay
+www.infolibre.es###subscribe-notifications
+www.meneame.net###live-window
+www.meneame.net##.index_block
+www.meneame.net##.sponsored.news-summary
+www.meneame.net##[href="https://rebellionpay.me/meneame"]
+www.publico.es##.pb-sticky-bottom-unete.pb-sticky-bottom
+www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded.paywall-bar-failsafe
+www.wired.com##.paywall-bar__expanded
+www.wish.com##.eheuPO.AuthenticationPage__Wrapper-sc-1nahtik-0.BaseModal__PlainBackDrop-sc-1u9dpt5-0

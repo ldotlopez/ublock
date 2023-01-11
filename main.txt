@@ -9,33 +9,29 @@
 ! Hide comments and random people opinions from sites
 ! ===========================
 
+!*###comments
+!*##.comments
+amazon.*##.askInlineWidget
 amazon.*##.cr-widget-DesktopGlobalReviews
 amazon.*##.cr-widget-FocalReviews
-amazon.*##.askInlineWidget
-
 castelloninformacion.com###comments
-
 castellonplaza.com##.motor
 castellonplaza.com##.seccion-ceramica
 castellonplaza.com##.seccion-plazadeportiva
-
 eldiario.es###edi-comments
 eldiario.es###edi-subscriber-comments
-
+eldiario.es##.header-ad.col-12
 elmundo.com##.elmundo-theme-v5 .ue-c-cover-content__comments
 elmundo.com##.elmundo-theme-v5.ue-l-article--basic .aside-comments
 elmundo.com##.elmundo-theme-v6 .ue-c-cover-content__comments
 elmundo.com##.elmundo-theme-v6.ue-l-article--basic .aside-comments
 elmundo.com##.elmundo-theme-v7 .ue-c-cover-content__comments
 elmundo.com##.elmundo-theme-v7.ue-l-article--basic .aside-comments
-
 elpais.com##.articulo .articulo-comentarios
 elpais.com##.articulo-comentarios
 elpais.com##.articulo-comentarios-encabezado
 elpais.com##.boton_comentarios
-
 elpais.com##a.comments_link
-
 elperiodicomediterraneo.com##.ComentariosdeNoticia
 elperiodicomediterraneo.com##.ComentariosNew
 elperiodicomediterraneo.com##.Contenidos h6.EnNoticia
@@ -45,9 +41,6 @@ lavanguardia.com##.story-socialmedia > span.livefyre-commentcount
 meneame.net##.comments
 meneame.net##.news-details
 youtube.com###comments
-
-!*##.comments
-!*###comments
 
 ! ===========================
 ! Paywall and premium stuff
@@ -65,10 +58,11 @@ elpais.com###acceptationCMPWall
 elmundo.es##.premium.banda_suscripcion
 
 ! Prensa iberica
-elperiodicomediterraneo.com##.premium.new > header > .new__tag
 elperiodicomediterraneo.com##.commercial-up-full__wrapper
-elperiodicomediterraneo.com##.sk--offered-by.sk--bcontent.lst
 elperiodicomediterraneo.com##.premium.new > header > .new__tag
+elperiodicomediterraneo.com##.premium.new > header > .new__tag
+elperiodicomediterraneo.com##.sk--offered-by.sk--bcontent.lst
+||elperiodicomediterraneo.com/assets/images/premium/*$image
 
 ! ===========================
 ! Hide misc stuff, very personal
@@ -89,10 +83,9 @@ lavanguardia.com##.container[data-gtm-element-container-section="deportes"]
 ! Misc stuff
 ! ===========================
 
-accounts.google.com/gsi/iframe/select$subdocument
-||accounts.google.com/gsi/iframe/select$subdocument
 magnet.xataka.com###batchsdk-ui-alert-container
 publicdomainreview.org##.expanded.exit-modal__shade
+wallapop.com###credential_picker_container
 www.abc.es##.ev-em-modal.ev-em-modals
 www.castelloninformacion.com##.main-sidebar
 www.castelloninformacion.com##.publicontainer
@@ -113,6 +106,10 @@ www.meneame.net##.index_block
 www.meneame.net##.sponsored.news-summary
 www.meneame.net##[href="https://rebellionpay.me/meneame"]
 www.publico.es##.pb-sticky-bottom-unete.pb-sticky-bottom
+www.vidaextra.com###batchsdk-ui-alert
+www.vidaextra.com##iframe.js-dailymotion
 www.wired.com##.journey-template--paywall-bar.paywall-bar--expanded.paywall-bar-failsafe
 www.wired.com##.paywall-bar__expanded
 www.wish.com##.eheuPO.AuthenticationPage__Wrapper-sc-1nahtik-0.BaseModal__PlainBackDrop-sc-1u9dpt5-0
+||accounts.google.com/gsi/iframe/select$subdocument
+||www.dailymotion.com/embed/video/x81nqng$subdocument
